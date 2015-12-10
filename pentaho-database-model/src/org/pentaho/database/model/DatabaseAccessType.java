@@ -33,6 +33,7 @@ public enum DatabaseAccessType {
 
   private DatabaseAccessType( String name ) {
     this.name = name;
+    String addedJunk = new String(name);
   }
 
   public String getName() {
